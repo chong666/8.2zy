@@ -1,0 +1,105 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+header {
+  font-size: 0.18rem;
+  padding-top: .05rem;
+  padding-bottom: .05rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #EB363D;
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #ccc; }
+  header i {
+    display: inline-block;
+    width: .35rem;
+    height: .35rem;
+    line-height: .35rem;
+    background: #FAFAFA;
+    text-align: center;
+    border: none; }
+  header .left {
+    text-align: right;
+    border-radius: 20px 0 0 20px;
+    padding-right: .05rem; }
+  header .right {
+    text-align: left;
+    color: #F0505A;
+    border-radius: 0 20px 20px 0;
+    padding-left: .05rem; }
+  header input {
+    flex: 1;
+    height: .33rem;
+    line-height: .33rem;
+    border: none;
+    background: #FAFAFA;
+    margin-left: -.01rem;
+    margin-right: -.01rem; }
+
+main {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+  main .nav {
+    display: flex;
+    line-height: .4rem; }
+    main .nav a {
+      flex: 1;
+      text-align: center;
+      font-size: .14rem; }
+  main .list {
+    padding-left: .1rem;
+    padding-right: .1rem; }
+    main .list li {
+      display: flex;
+      position: relative;
+      padding-top: .1rem;
+      padding-bottom: .1rem;
+      border-bottom: 1px solid #ccc; }
+      main .list li .list-left {
+        flex: 1; }
+        main .list li .list-left p {
+          font-size: .16rem;
+          font-weight: bold; }
+        main .list li .list-left .quan {
+          display: inline-block;
+          border: 1px solid #6D94B3; }
+        main .list li .list-left span {
+          position: absolute;
+          bottom: .1rem;
+          color: #6D94B3; }
+        main .list li .list-left .zan {
+          right: 1.3rem; }
+      main .list li .list-right {
+        width: auto; }
+        main .list li .list-right img {
+          width: 1.2rem;
+          height: .8rem; }
+
+footer {
+  padding-top: .08rem;
+  padding-bottom: .08rem;
+  display: flex;
+  background: #F5F5F5;
+  border-top: 1px solid #ccc; }
+  footer a {
+    flex: 1;
+    text-align: center; }
+    footer a span {
+      display: inline-block;
+      width: .3rem;
+      height: .3rem;
+      line-height: .3rem;
+      text-align: center;
+      background: #F4E1D3;
+      color: #29889A;
+      border: 1px solid #29889A;
+      border-radius: 50%; }
+
+/*# sourceMappingURL=style.css.map */
